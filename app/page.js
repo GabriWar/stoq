@@ -288,7 +288,7 @@ export default function Home() {
                       <span className="text-sm text-gray-500">#{property.id}</span>
                     </div>
 
-                    <h4 className="text-xl font-bold mb-2 text-gray-800">{property.title}</h4>
+                    <h4 className="text-xl font-bold mb-2 text-gray-800">{property.name}</h4>
                     <p className="text-gray-600 mb-3">{property.description}</p>
                     
                     <div className="mb-4">
