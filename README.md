@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📦 Guerrinha Imóveis - Sistema de Gestão de Estoque (POC)
 
-## Getting Started
+> Projeto de faculdade desenvolvido com o objetivo de criar um **sistema funcional de gestão de estoque**, especialmente voltado para a empresa **Guerrinha Imóveis**.
 
-First, run the development server:
+---
+
+## 🧩 Visão Geral
+
+Este projeto integra um sistema de gerenciamento de estoque diretamente ao site institucional da empresa, assumindo características de um **CRM (Customer Relationship Management)**.
+A proposta visa facilitar o controle de imóveis, clientes, atendimentos e histórico de interações.
+
+O sistema utiliza o **Supabase** como banco de dados e backend em tempo real, permitindo autenticação, persistência de dados e consultas rápidas com baixo acoplamento.
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Bun.js-000000?style=for-the-badge&logo=bun&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/shadcn/ui-111827?style=for-the-badge&logo=none&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+</div>
+
+---
+
+## 📸 Capturas de Tela
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c07a0b88-ebec-47c1-b0d6-7bc1581c25e8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b764e97-5388-4534-ab49-87d789d46171" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b27dfc48-8790-4b8f-bf34-58053278b439" />
+
+---
+
+## 🚀 Funcionalidades
+
+* Cadastro e edição de imóveis
+* Controle de disponibilidade e status (alugado, vendido, disponível)
+* Registro de atendimentos e interações com clientes
+* Integração com o site institucional
+* Interface moderna, responsiva e acessível
+* Autenticação e persistência de dados com **Supabase**
+
+## ⚙️ Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+# Clone o repositório
+git clone https://github.com/seu-usuario/guerrinha-estoque.git
+
+# Acesse a pasta do projeto
+cd guerrinha-estoque
+
+# Instale as dependências
+bun install
+
+# Rode o projeto
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Certifique-se de ter o [Bun](https://bun.sh/) instalado na sua máquina.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contribuição
 
-## Learn More
+Sinta-se à vontade para sugerir melhorias, relatar bugs ou propor novas funcionalidades!
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧾 Licença
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto foi desenvolvido para fins acadêmicos.
+a licença MIT se aplica.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
